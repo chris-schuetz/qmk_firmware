@@ -15,14 +15,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LEFT_ALT,    KC_B,           DE_Y,           KC_O,           KC_U,           DE_QUOT,                                        DE_DQOT,        KC_L,           KC_D,           KC_W,           KC_V,           DE_Z,
     KC_LEFT_CTRL,   KC_C,           KC_I,           KC_E,           KC_A,           KC_COMMA,                                       KC_DOT,         KC_H,           KC_T,           KC_S,           KC_N,           KC_Q,
     KC_LEFT_GUI,    KC_G,           KC_X,           KC_J,           KC_K,           DE_MINS,                                        DE_EXLM,        KC_R,           KC_M,           KC_F,           KC_P,           KC_BSPC,
-                                                                                    LT(1,KC_SPACE), KC_TAB,         KC_RIGHT_SHIFT, LT(4,KC_ENTER)
+                                                                                    LT(1,KC_SPACE), KC_TAB,         LT(4,KC_ENTER),KC_RIGHT_SHIFT
   ),
   [1] = LAYOUT_voyager(
     KC_ESCAPE,      KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,                                          KC_F6,          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,
     KC_TRANSPARENT, DE_SS,          DE_DLR,         DE_OE,          DE_UE,          DE_GRV,                                         DE_SLSH,        KC_TRANSPARENT, KC_UP,          KC_TRANSPARENT, KC_TRANSPARENT, KC_F12,
     KC_TRANSPARENT, ES_CCED,        DE_HASH,        DE_AT,          DE_AE,          DE_ACUT,                                        DE_BSLS,        KC_LEFT,        KC_DOWN,        KC_RIGHT,       ES_NTIL,        KC_TRANSPARENT,
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 ES_IEXL,        KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_APPLICATION,
-                                                                                    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_LEFT_CTRL
+                                                                                    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [2] = LAYOUT_voyager(
     KC_ESCAPE,      KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,
