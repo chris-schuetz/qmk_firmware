@@ -36,3 +36,4 @@
 #define ES_NTIL KC_SCLN
 #define ES_IEXL KC_EQL
 #define ES_IQUE S(KC_EQL)
+#define DE_EURO ALGR(KC_E)
